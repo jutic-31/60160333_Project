@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall7"
+    tools:context=".menu">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <LinearLayout
+            android:layout_width="314dp"
+            android:layout_height="513dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="31dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/fun"
+                android:text=" Menu "
+                android:textColor="#723c2a"
+                android:textSize="60dp" />
+
+            <Button
+                android:id="@+id/button_food"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#A99488"
+                android:fontFamily="@font/font_lamoon"
+                android:padding="16dp"
+                android:text="อาหาร"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_chili"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:background="#A2805D"
+                android:fontFamily="@font/font_lamoon"
+                android:padding="16dp"
+                android:text="น้ำพริก"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/button_drink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8B8E7C"
+                android:fontFamily="@font/font_lamoon"
+                android:padding="16dp"
+                android:text="เครื่องดื่ม"
+                android:textColor="#ffffff"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
